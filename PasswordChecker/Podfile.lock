@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.6.0)
+  - IDZSwiftCommonCrypto (0.10.0)
+  - ZXCVBN (1.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - IDZSwiftCommonCrypto
+  - ZXCVBN
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  IDZSwiftCommonCrypto: 4eef2c46e262dfbcbc1fd76365e066336680ad7d
+  ZXCVBN: f3888e3f6363b8cf57bcc32857a9bc09f9f9e18e
+
+PODFILE CHECKSUM: e055ad930de91ad9253f4655f82cfd38f00199ab
+
+COCOAPODS: 1.4.0

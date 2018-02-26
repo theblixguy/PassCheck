@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C28232D203E283D002FBF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28232C203E283D002FBF7C /* AppDelegate.swift */; };
+		7C28232F203E283D002FBF7C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C28232E203E283D002FBF7C /* MainViewController.swift */; };
+		7C282332203E283D002FBF7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C282330203E283D002FBF7C /* Main.storyboard */; };
+		7C282334203E283D002FBF7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C282333203E283D002FBF7C /* Assets.xcassets */; };
+		7C282337203E283D002FBF7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C282335203E283D002FBF7C /* LaunchScreen.storyboard */; };
+		7C48FB91203E7D0A008E6C8E /* PwnedPasswordsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C48FB90203E7D0A008E6C8E /* PwnedPasswordsAPI.swift */; };
+		7C92F2C920420B610021D624 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C92F2C820420B610021D624 /* CollectionExtensions.swift */; };
+		7CBA2FDE203E77B80005F8BB /* NSLayoutConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBA2FDD203E77B80005F8BB /* NSLayoutConstraintExtensions.swift */; };
+		7CC1A76A203E559A00110369 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1A769203E559A00110369 /* Utils.swift */; };
+		7CC1A76C203E58E400110369 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1A76B203E58E400110369 /* UIColorExtensions.swift */; };
+		7CC1A76E203E5CD500110369 /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1A76D203E5CD500110369 /* PasswordGenerator.swift */; };
+		7CC1A770203E643100110369 /* PasswordGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC1A76F203E643100110369 /* PasswordGeneratorViewController.swift */; };
+		EDC28D87BD977A27D0BDB0F9 /* Pods_PasswordChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13CD9C55F99B7C139FC5DE9 /* Pods_PasswordChecker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0224CC010BF6F74C0E0BE06C /* Pods-PasswordChecker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordChecker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordChecker/Pods-PasswordChecker.debug.xcconfig"; sourceTree = "<group>"; };
+		7C282329203E283D002FBF7C /* PasswordChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C28232C203E283D002FBF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C28232E203E283D002FBF7C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7C282331203E283D002FBF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C282333203E283D002FBF7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C282336203E283D002FBF7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C282338203E283D002FBF7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C48FB90203E7D0A008E6C8E /* PwnedPasswordsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwnedPasswordsAPI.swift; sourceTree = "<group>"; };
+		7C92F2C820420B610021D624 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
+		7CBA2FDD203E77B80005F8BB /* NSLayoutConstraintExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtensions.swift; sourceTree = "<group>"; };
+		7CC1A769203E559A00110369 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		7CC1A76B203E58E400110369 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		7CC1A76D203E5CD500110369 /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
+		7CC1A76F203E643100110369 /* PasswordGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGeneratorViewController.swift; sourceTree = "<group>"; };
+		92DCA01909C44F7840DD4A7E /* Pods-PasswordChecker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordChecker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordChecker/Pods-PasswordChecker.release.xcconfig"; sourceTree = "<group>"; };
+		F13CD9C55F99B7C139FC5DE9 /* Pods_PasswordChecker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordChecker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C282326203E283D002FBF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC28D87BD977A27D0BDB0F9 /* Pods_PasswordChecker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		167A90A061DBD342CD3F4B38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F13CD9C55F99B7C139FC5DE9 /* Pods_PasswordChecker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AE9818328B83359D5D6AED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0224CC010BF6F74C0E0BE06C /* Pods-PasswordChecker.debug.xcconfig */,
+				92DCA01909C44F7840DD4A7E /* Pods-PasswordChecker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C282320203E283D002FBF7C = {
+			isa = PBXGroup;
+			children = (
+				7C28232B203E283D002FBF7C /* PasswordChecker */,
+				7C28232A203E283D002FBF7C /* Products */,
+				6AE9818328B83359D5D6AED1 /* Pods */,
+				167A90A061DBD342CD3F4B38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C28232A203E283D002FBF7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C282329203E283D002FBF7C /* PasswordChecker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C28232B203E283D002FBF7C /* PasswordChecker */ = {
+			isa = PBXGroup;
+			children = (
+				7C28232C203E283D002FBF7C /* AppDelegate.swift */,
+				7C28232E203E283D002FBF7C /* MainViewController.swift */,
+				7C282330203E283D002FBF7C /* Main.storyboard */,
+				7C282333203E283D002FBF7C /* Assets.xcassets */,
+				7C282335203E283D002FBF7C /* LaunchScreen.storyboard */,
+				7C282338203E283D002FBF7C /* Info.plist */,
+				7CC1A769203E559A00110369 /* Utils.swift */,
+				7CC1A76B203E58E400110369 /* UIColorExtensions.swift */,
+				7CC1A76D203E5CD500110369 /* PasswordGenerator.swift */,
+				7CC1A76F203E643100110369 /* PasswordGeneratorViewController.swift */,
+				7CBA2FDD203E77B80005F8BB /* NSLayoutConstraintExtensions.swift */,
+				7C48FB90203E7D0A008E6C8E /* PwnedPasswordsAPI.swift */,
+				7C92F2C820420B610021D624 /* CollectionExtensions.swift */,
+			);
+			path = PasswordChecker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C282328203E283D002FBF7C /* PasswordChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C28233B203E283D002FBF7C /* Build configuration list for PBXNativeTarget "PasswordChecker" */;
+			buildPhases = (
+				6C6B98F19795D7146C06C5A1 /* [CP] Check Pods Manifest.lock */,
+				7C282325203E283D002FBF7C /* Sources */,
+				7C282326203E283D002FBF7C /* Frameworks */,
+				7C282327203E283D002FBF7C /* Resources */,
+				605CE5EE34BF8D8B948BC72A /* [CP] Embed Pods Frameworks */,
+				347AC2C066216B6AF25E55A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordChecker;
+			productName = PasswordChecker;
+			productReference = 7C282329203E283D002FBF7C /* PasswordChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C282321203E283D002FBF7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Suyash Srijan";
+				TargetAttributes = {
+					7C282328203E283D002FBF7C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7C282324203E283D002FBF7C /* Build configuration list for PBXProject "PasswordChecker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C282320203E283D002FBF7C;
+			productRefGroup = 7C28232A203E283D002FBF7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C282328203E283D002FBF7C /* PasswordChecker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C282327203E283D002FBF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C282337203E283D002FBF7C /* LaunchScreen.storyboard in Resources */,
+				7C282334203E283D002FBF7C /* Assets.xcassets in Resources */,
+				7C282332203E283D002FBF7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347AC2C066216B6AF25E55A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordChecker/Pods-PasswordChecker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605CE5EE34BF8D8B948BC72A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PasswordChecker/Pods-PasswordChecker-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IDZSwiftCommonCrypto/IDZSwiftCommonCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/ZXCVBN/ZXCVBN.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDZSwiftCommonCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZXCVBN.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordChecker/Pods-PasswordChecker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6B98F19795D7146C06C5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PasswordChecker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C282325203E283D002FBF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C28232F203E283D002FBF7C /* MainViewController.swift in Sources */,
+				7C28232D203E283D002FBF7C /* AppDelegate.swift in Sources */,
+				7CC1A76A203E559A00110369 /* Utils.swift in Sources */,
+				7CC1A770203E643100110369 /* PasswordGeneratorViewController.swift in Sources */,
+				7C92F2C920420B610021D624 /* CollectionExtensions.swift in Sources */,
+				7CC1A76E203E5CD500110369 /* PasswordGenerator.swift in Sources */,
+				7CC1A76C203E58E400110369 /* UIColorExtensions.swift in Sources */,
+				7C48FB91203E7D0A008E6C8E /* PwnedPasswordsAPI.swift in Sources */,
+				7CBA2FDE203E77B80005F8BB /* NSLayoutConstraintExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C282330203E283D002FBF7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C282331203E283D002FBF7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C282335203E283D002FBF7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C282336203E283D002FBF7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C282339203E283D002FBF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7C28233A203E283D002FBF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C28233C203E283D002FBF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0224CC010BF6F74C0E0BE06C /* Pods-PasswordChecker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97346KBR2S;
+				INFOPLIST_FILE = PasswordChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashsrijan.PasswordChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7C28233D203E283D002FBF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DCA01909C44F7840DD4A7E /* Pods-PasswordChecker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97346KBR2S;
+				INFOPLIST_FILE = PasswordChecker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suyashsrijan.PasswordChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C282324203E283D002FBF7C /* Build configuration list for PBXProject "PasswordChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C282339203E283D002FBF7C /* Debug */,
+				7C28233A203E283D002FBF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C28233B203E283D002FBF7C /* Build configuration list for PBXNativeTarget "PasswordChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C28233C203E283D002FBF7C /* Debug */,
+				7C28233D203E283D002FBF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C282321203E283D002FBF7C /* Project object */;
+}

@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+use_frameworks!
+target 'PasswordChecker' do
+    pod 'Alamofire'
+    pod 'ZXCVBN'
+    pod 'IDZSwiftCommonCrypto'
+end
